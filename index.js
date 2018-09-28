@@ -84,13 +84,13 @@ function endGame() {
 
 function moveDodger(e) {
     if (e.which === LEFT_ARROW) {
-      e.stopPropagation();
-      e.preventDefault();
+      //e.stopPropagation();
+      //e.preventDefault();
       moveDodgerLeft();
     }
     else if(e.which === RIGHT_ARROW){
-      e.stopPropagation();
-      e.preventDefault();
+      //e.stopPropagation();
+      //e.preventDefault();
       moveDodgerRight();
     }
   
