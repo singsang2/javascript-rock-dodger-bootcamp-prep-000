@@ -78,7 +78,7 @@ function endGame() {
   
   alert("YOU LOSE!");
   
-  START.innerHTML = 'YOU SUCK!?';
+  START.innerHTML = 'TRY AGAIN!?';
   START.style.display = 'inline';
 }
 
