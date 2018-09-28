@@ -54,7 +54,7 @@ function createRock(x) {
       rock.style.top = `${top}px`;
       window.requestAnimationFrame(moveRock);
     } else if(top >= GAME_HEIGHT-20){
-       GAME.removeChild(rock);
+       rock.remove()
        ROCKS.shift();
      }
   }
